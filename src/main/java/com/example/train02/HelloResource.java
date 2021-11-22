@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/hello-world")
 public class HelloResource {
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces("application/json")
     public String hello() {
         return "Hello, World!";
     }

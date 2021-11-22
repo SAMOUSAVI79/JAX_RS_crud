@@ -13,7 +13,7 @@ public class MessageService {
 
     public MessageService(){
           messages.put(1l, new MessageModel(1, "join to playpod", "mousavi"));
-          messages.put(2l, new MessageModel(1, "revoke from playpod", "asghari"));
+          messages.put(2l, new MessageModel(2, "revoke from playpod", "asghari"));
 
     }
 
